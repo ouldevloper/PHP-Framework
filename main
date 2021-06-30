@@ -1,0 +1,10 @@
+<?php
+
+require_once 'config'.DIRECTORY_SEPARATOR.'config.php';
+require_once __VENDOR__.'console'.DS.'autoload.php';
+use OULDEVELOPER\CONSOLE\Main;
+
+
+
+$main = new Main($argv);
+$main->run();
